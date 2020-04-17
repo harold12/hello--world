@@ -1,0 +1,47 @@
+git init para iniciar repor base de datos de cambios
+git add biografia.txt para agregar este archivo al repo
+git commit -m " version 1" para guardar los cambios del archivo anterior
+hago los cambios que necesito
+git add .
+git commit -m "Cambios a v1"+
+git status como esta el estatus ,  
+git show muestra todos los cambios historicos hecho.
+git log biografia.txt muestra todos los cambios
+git push para enviar al repositorio externo
+git rm para quitar
+master cada commmit es una version 
+experimentos copias la version del commit que quieras
+
+bugfixing
+hotfix
+
+trabajando con fork  clonamos el clon del original
+git clone https://direccion_proyecto_github relay_forked
+entramos a la carpeta
+cd relay_forked
+indicamos a git que nuestro repositorio tiene una ubicacion remota
+git remote add upstream https://github.com.co/facebook/relay.git
+upstream es el nombre de la ubicacion remota
+ya podemos actualizar nuestro repositorio desde la ubicacion remota
+git fetch upstream
+debemos asegurar que estamos en nuestra rama master
+git checkout master
+para traer los cambios del proyecto principal con nuestro proyecto
+git merge upstream/master
+si quieres usar rebase en vez de merge
+git rebase upstream/master
+
+para abrir un archivo con el programa que deseemos 
+sintax:
+ruta-de-aplicación nombre-aplicacion-EXE ruta-de-la-carpeta NombreArchivo.ExtensionArchivo
+ejemplo:
+"D:\PROGRAMAS\AdobePhotoshopCS6\PhotoshopPortable_2018.exe" "C:\Users\Alex\Desktop\Portada.psd"
+abrir carpeta desde simbolo de sistema
+start %windir%\explorer.exe ruta-de-la-carpeta
+start %windir%\explorer.exe “C:\Users\Alex\Documents”
+cerrar el archivo
+taskkil /im nombreArchivo.exe /t
+ejemplo:
+taskill /im excel.exe /t
+
+

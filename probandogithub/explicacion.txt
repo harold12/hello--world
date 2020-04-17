@@ -1,0 +1,9 @@
+Dashboard paneladministrativo
+Api
+Hay 3 momentos en un proyecto web
+Primer momento la base de datos:un grupo de tablas aliados,clientes relación clientes
+Clientes y aliados tablas;
+El api:base de datos genera una ip orm es una librería consumir la base , aprender orm,flask microframework  flaks orm.
+orm de posgrest para python.
+Cliente o frontend
+flask con possgress

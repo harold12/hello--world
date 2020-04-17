@@ -1,0 +1,39 @@
+mapbox
+api python
+base de datos mongodb una base de datos que guarda una lista de geolocalizaciones
+backend python frontend
+socket aio
+arquitectura cliente servidor
+dos computadoras : cliente computadora mia , servidor, ajax websockets
+frontend api backend
+fronten se puede conectar con cuales quiera backend.
+stack:conjunto de tecnologias para desarrollar m.e.a.n.
+react.js
+angular                                       vue                                        react
+google                                       |framework prograsivo                      |LIBRERIA
+framework                                    |agrega componentes a                      |es solo la v (vista) del MVC.
+implementa todo                              |medida que tu app necesite                |JAVASCRIPT
+el modelo MVC                                |                                          |react usa solo
+typescript                                   |javascript                                |javaScript y aprovecha
+angular us typescript                        |vue usa javascript y                      |sus características
+para escribir javascript                     |tiene una curva de aprendizaje            |JSX
+más poderoso                                 |muy rápida.                               |react junta la lógica y el 
+templates                                    |                                          |marcado en el mismo
+angular usa html                             |templates y jsx                           |componente usando JSX.
+y directivas para insertar la                |vue soporta lo mejor de los 2 mundos:     |ONE WAY DATA BINDING
+lógica.                                      |templates en HTML o JSX                   |si cambian los datos en el
+two way data binding                         |                                          |estado cambian en la interfaz 
+si cambian los datos en la                   |two way data binding                      |pero no al revés.
+interfaz cambian en el modelo(estado)        |la directiva v-model actualiza el modelosi|
+                                             |modelo si la vista cambia y viceversa     |
+sabes que es graphql?                          |conceptos basicos             
+es un lenguaje de consultas creado por facebook|query: consulta informacion al servidor
+como opción a las API Rest.                    |con solo los campos que se necesita
+CARACTERÍSTICAS 	                       |(equivalente al método GET de rest)
+-el frontend puede solicitar datos al servidor |query HeroNameAndFriens{
+sin necesidad                                  |  hero{
+de modificar el backend.                       |   name
+-es una alternativa a las APIs Rest            |   friends{
+                                               |    name
+                                               |}}}
+                                               mutation: modifican información en el servidor(equivalente a los métodos)
